@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server';
 
 // In-memory placeholder data for the cat.
-
 export async function GET() {
   console.log("Returning cat data from the API route...");
 
